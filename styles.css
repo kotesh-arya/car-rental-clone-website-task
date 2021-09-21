@@ -5,6 +5,7 @@
     font-family: 'Play', sans-serif;
 }
 .main-header{
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -14,6 +15,7 @@
 a{
     text-decoration: none;
     color: black;
+  
 }
 .image-content-div{
     height: 80vh;
