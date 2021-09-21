@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.image-content-div{
+    height: 80vh;
+   
+    color: whitesmoke;
+    width: auto;
+    background-image: url(images/lightened-luxury-sedan-car-darkness-with-headlamps-rear-lights-lit-realistic-image-reflection/28803\ \(2\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image-div-content{
+    padding: 100px;
+    margin: 0;
+    background-color: rgba(244, 253, 244, 0);
+}
+.image-div-content a{
+    margin: 200px;
+}
+.min-div{
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 350px;
+   padding:auto;
+    margin:   auto ;
+    border-radius: 50px;
+}
+.cards-section{
+    
+    display: grid;
+   grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
+    grid-template-rows: repeat(2, 280px);
+}
+.card{
+    text-align: center;
+}
+.mixed-div{
+    height: 50vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: auto;
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+}
+.solo-card{
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: rgba(22, 13, 13, 0.719);
+    margin:  -50px auto auto auto ;
+    color: whitesmoke;
+}
+.learn-more{
+    width: 200px;
+    margin: auto;
+}
+button{
+    width: 200px;
+    padding: 10px;
+}
